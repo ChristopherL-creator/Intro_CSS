@@ -1,0 +1,35 @@
+html, body{ 
+    margin: 0px; 
+    padding: 0px; 
+    height: 100%; 
+    width: 100%; 
+} 
+/* Bordi */
+.border-div{ 
+    background-color: dodgerblue; 
+
+    width: 500px; 
+    height: 300px; 
+    margin: 50px; 
+    color: pink;
+    /* border-style: solid; 
+    border-color: gold; 
+    border-width: 10px;  */
+    border-radius: 50px;
+    border: 10px solid gold; 
+    border-top-left-radius: 10px;
+    
+
+} 
+
+.background-div{ 
+    width: 500px; 
+    height: 300px; 
+    margin: 50px; 
+    /* background-color: rebeccapurple;  */
+    /* background-image: url("./assets/tile_background.png"); 
+    background-repeat: no-repeat; */ 
+    background-image: url("./assets/panda.jpg"); 
+    background-size: cover; 
+    background-position: center center;
+}
